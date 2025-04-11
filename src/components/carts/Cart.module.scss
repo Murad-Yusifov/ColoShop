@@ -1,0 +1,44 @@
+.wrapper {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    .card {
+        width: 150px;
+        height: 280px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        transition: .5s;
+        align-content: space-between;
+    
+        .img {
+            width: 90%;
+            height: 50%;
+    
+        }
+        p {
+            font-size: 13px;
+    
+        }
+        button {
+            visibility: hidden;
+            color: white;
+            background-color: red;
+            border: none;
+            width: 100%;
+            height: 30px;
+    
+        }
+    }
+}
+.card:hover {
+    transition: 0.5s;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        button {
+        visibility: visible;
+        cursor: pointer;
+        
+    }
+
+}
